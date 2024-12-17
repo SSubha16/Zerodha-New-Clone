@@ -28,7 +28,7 @@ const values = (e) =>{
 
 const handleSellClick=()=>{
 
-  axios.delete(`http://localhost:8080/delete/${id}`);
+  axios.delete(`https://zerodha-new-clone.onrender.com/delete/${id}`);
   generalContext.closeSaleWindow();
 
 }
