@@ -24,7 +24,7 @@ const handleSubmit = async (e) => {
   e.preventDefault();
   try {
     const { data } = await axios.post(
-      "http://localhost:8080/signup",
+      "https://zerodha-new-clone.onrender.com/signup",
       {
         ...inputValue,
       },
@@ -33,7 +33,7 @@ const handleSubmit = async (e) => {
     const { success, message } = data;
     if (success) {
       setTimeout(() => {
-        window.location.href = "http://localhost:3001/"
+        window.location.href = "zerodha-new-clone-7v85w2ujo-subha-karmakars-projects-dee2d897.vercel.app"
       }, 1000);
     } else {
      alert(message)

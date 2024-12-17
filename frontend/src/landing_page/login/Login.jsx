@@ -34,7 +34,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:8080/login",
+        "https://zerodha-new-clone.onrender.com/login",
         {
           ...inputValue,
         },
@@ -45,7 +45,7 @@ const Login = () => {
       if (success) {
         handleSuccess(message);
         setTimeout(() => {
-          window.location.href = "http://localhost:3001/"
+          window.location.href = "zerodha-new-clone-7v85w2ujo-subha-karmakars-projects-dee2d897.vercel.app"
         }, 1000);
       } else {
         alert(message)
@@ -89,7 +89,7 @@ const Login = () => {
         </div>
         
         <button type="submit" onClick={ () => {
-          window.location.href = "http://localhost:5173/"
+          window.location.href = "zerodha-new-clone-7v85w2ujo-subha-karmakars-projects-dee2d897.vercel.app"
         }}>Submit</button>
         
         <span>

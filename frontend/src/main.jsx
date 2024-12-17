@@ -12,7 +12,8 @@ import ProductPage from "./landing_page/products/ProductPage";
 import PricingPage from "./landing_page/pricing/PricingPage";
 import SupportPage from "./landing_page/support/SupportPage";
 import NotFound from "./landing_page/NotFound";
-import Login from "./landing_page/login/login";
+import Login from "./landing_page/login/Login";
+
 
 
 
